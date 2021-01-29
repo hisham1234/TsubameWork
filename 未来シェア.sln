@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "未来シェア", "未来シェア\未来シェア.csproj", "{65B136E8-2D2C-459B-8531-7B08EE43CA52}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "vb_dll", "ClassLibrary1\vb_dll.vbproj", "{1F861F5E-22EC-4561-B7CF-EAB3F9828963}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "データアップロードツール", "データアップロードツール\データアップロードツール.csproj", "{1D7729E9-E3BE-4DA8-AEE7-3236CAECEE1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectioinAPI", "DirectioinAPI\DirectioinAPI.csproj", "{D0B2A046-0E11-4668-8392-71832C140C8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aynori", "Shared\Aynori.csproj", "{1D3BF9A4-04CB-46D6-B1ED-C7C807C30DB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TsubameNet", "IntraPortal\TsubameNet.csproj", "{51E95FA3-C81B-40A8-ACBD-81A87AC66581}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65B136E8-2D2C-459B-8531-7B08EE43CA52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65B136E8-2D2C-459B-8531-7B08EE43CA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65B136E8-2D2C-459B-8531-7B08EE43CA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65B136E8-2D2C-459B-8531-7B08EE43CA52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F861F5E-22EC-4561-B7CF-EAB3F9828963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F861F5E-22EC-4561-B7CF-EAB3F9828963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F861F5E-22EC-4561-B7CF-EAB3F9828963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F861F5E-22EC-4561-B7CF-EAB3F9828963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D7729E9-E3BE-4DA8-AEE7-3236CAECEE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D7729E9-E3BE-4DA8-AEE7-3236CAECEE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D7729E9-E3BE-4DA8-AEE7-3236CAECEE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D7729E9-E3BE-4DA8-AEE7-3236CAECEE1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0B2A046-0E11-4668-8392-71832C140C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0B2A046-0E11-4668-8392-71832C140C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0B2A046-0E11-4668-8392-71832C140C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0B2A046-0E11-4668-8392-71832C140C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D3BF9A4-04CB-46D6-B1ED-C7C807C30DB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D3BF9A4-04CB-46D6-B1ED-C7C807C30DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D3BF9A4-04CB-46D6-B1ED-C7C807C30DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D3BF9A4-04CB-46D6-B1ED-C7C807C30DB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51E95FA3-C81B-40A8-ACBD-81A87AC66581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E95FA3-C81B-40A8-ACBD-81A87AC66581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E95FA3-C81B-40A8-ACBD-81A87AC66581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E95FA3-C81B-40A8-ACBD-81A87AC66581}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.1.169:8080/tfs/gpssystemcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = 未来シェア\\未来シェア.csproj
+		SccProjectName1 = 未来シェア
+		SccLocalPath1 = 未来シェア
+		SccProjectUniqueName2 = ClassLibrary1\\vb_dll.vbproj
+		SccProjectName2 = ClassLibrary1
+		SccLocalPath2 = ClassLibrary1
+		SccProjectUniqueName3 = データアップロードツール\\データアップロードツール.csproj
+		SccProjectName3 = データアップロードツール
+		SccLocalPath3 = データアップロードツール
+		SccProjectUniqueName4 = DirectioinAPI\\DirectioinAPI.csproj
+		SccProjectName4 = DirectioinAPI
+		SccLocalPath4 = DirectioinAPI
+		SccProjectUniqueName5 = Shared\\Aynori.csproj
+		SccProjectName5 = Shared
+		SccLocalPath5 = Shared
+		SccProjectUniqueName6 = IntraPortal\\TsubameNet.csproj
+		SccProjectName6 = IntraPortal
+		SccLocalPath6 = IntraPortal
+	EndGlobalSection
+EndGlobal

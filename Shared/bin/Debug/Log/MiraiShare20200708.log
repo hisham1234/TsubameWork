@@ -1,0 +1,75 @@
+2020/07/08 10:06:56.713 start
+2020/07/08 10:09:57.071 処理開始
+2020/07/08 10:09:57.642 MiraiShareServer_deleteAllDemands():失敗オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.MiraiShareServer_deleteAllDemands(String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 486
+2020/07/08 10:10:31.022 処理開始
+2020/07/08 10:10:34.565 MiraiShareServer_deleteAllDemands():終了
+2020/07/08 10:10:34.641 finishDemandRequest():終了
+2020/07/08 10:10:37.917 import予約():終了
+2020/07/08 10:10:37.947 insertTaskList():終了
+2020/07/08 10:11:03.160 MiraiShareServer_demandRegist():終了
+2020/07/08 10:11:45.843 MiraiShareServer_calc_execute():終了
+2020/07/08 10:11:45.880 updateTaskList():終了
+2020/07/08 10:11:45.891 計算開始
+2020/07/08 10:36:14.109 start
+2020/07/08 10:36:33.514 計算確認:計算完了
+2020/07/08 10:36:33.527 計算終了
+2020/07/08 10:36:33.576 finishDemandRequest():終了
+2020/07/08 10:36:33.602 UpdateMirai_手動登録():終了
+2020/07/08 10:36:57.109 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:36:57.276 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:36:57.475 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:36:57.690 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:36:57.853 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:36:58.049 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:36:58.216 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:36:58.375 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:36:58.565 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:36:58.756 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:36:58.921 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:36:59.104 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:36:59.114 結果取得成功
+2020/07/08 10:39:09.486 処理開始
+2020/07/08 10:39:13.481 MiraiShareServer_deleteAllDemands():終了
+2020/07/08 10:39:13.524 finishDemandRequest():終了
+2020/07/08 10:39:16.571 import予約():終了
+2020/07/08 10:39:16.606 insertTaskList():終了
+2020/07/08 10:39:27.629 MiraiShareServer_demandRegist():終了
+2020/07/08 10:40:02.280 MiraiShareServer_calc_execute():終了
+2020/07/08 10:40:02.317 updateTaskList():終了
+2020/07/08 10:40:02.336 計算開始
+2020/07/08 10:40:54.425 計算確認:計算完了
+2020/07/08 10:40:54.477 計算終了
+2020/07/08 10:40:54.538 finishDemandRequest():終了
+2020/07/08 10:40:54.586 UpdateMirai_手動登録():終了
+2020/07/08 10:41:36.187 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:41:36.350 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:41:36.541 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:41:36.730 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:41:36.909 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:41:37.108 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:41:37.297 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:41:37.462 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:41:37.673 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:41:37.857 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:41:38.073 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:41:38.243 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:41:42.513 結果取得成功
+2020/07/08 10:43:53.449 start
+2020/07/08 10:44:15.936 処理開始
+2020/07/08 10:44:19.771 MiraiShareServer_deleteAllDemands():終了
+2020/07/08 10:44:19.824 finishDemandRequest():終了
+2020/07/08 10:44:20.935 import予約():終了
+2020/07/08 10:44:20.966 insertTaskList():終了
+2020/07/08 10:44:39.378 MiraiShareServer_demandRegist():終了
+2020/07/08 10:45:19.189 MiraiShareServer_calc_execute():終了
+2020/07/08 10:45:19.222 updateTaskList():終了
+2020/07/08 10:45:19.236 計算開始
+2020/07/08 10:45:55.472 計算確認:計算完了
+2020/07/08 10:45:55.510 計算終了
+2020/07/08 10:45:55.541 finishDemandRequest():終了
+2020/07/08 10:45:55.571 UpdateMirai_手動登録():終了
+2020/07/08 10:58:55.161 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:58:55.326 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:58:55.487 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:58:55.681 オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.insertDemandRecord(配車計算の状態確認_Response demand, String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\Shared\MiraiShareDataOP.cs:行 644
+2020/07/08 10:58:55.694 結果取得成功

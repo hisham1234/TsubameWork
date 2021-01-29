@@ -1,0 +1,38 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+vb_dll
+</name>
+</assembly>
+<members>
+<member name="T:vb_dll.My.Resources.Resources">
+<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member>
+<member name="P:vb_dll.My.Resources.Resources.ResourceManager">
+<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member>
+<member name="P:vb_dll.My.Resources.Resources.Culture">
+<summary>
+  厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member>
+<member name="M:vb_dll.cls緯度経度変換.ToRoundDown(System.Double,System.Int32)">
+ ------------------------------------------------------------------------
+ <summary>
+     指定した精度の数値に切り捨てします。</summary>
+ <param name="dValue">
+     丸め対象の倍精度浮動小数点数。</param>
+ <param name="iDigits">
+     戻り値の有効桁数の精度。</param>
+ <returns>
+     iDigits に等しい精度の数値に切り捨てられた数値。</returns>
+ ------------------------------------------------------------------------
+</member>
+</members>
+</doc>

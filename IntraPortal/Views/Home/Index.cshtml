@@ -1,0 +1,106 @@
+﻿@using IntraPortal.Models
+@model RegisterViewModel
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+<div class="row">
+    <div class="col-md-12">
+        <h3>つばめネットへようこそ</h3>
+    </div>
+</div>
+<hr />
+
+<div class="row">
+    <div class="col-md-2">
+        @Html.ActionLink("編集", "Edit",Model)
+    </div>
+   
+</div>
+
+<div class="row">
+    <div class="col-md-2">
+      名前 
+    </div>
+    <div class="col-md-10">
+        @Model.Name
+    </div>
+    
+</div>
+
+<div class="row">
+    <div class="col-md-2">
+        スタッフナンバー
+    </div>
+    <div class="col-md-10">
+        @Model.StaffNumber
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="col-md-2">
+        電子メール
+    </div>
+    <div class="col-md-10">
+        @Model.Email
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="col-md-2">
+ 会社名
+    </div>
+    <div class="col-md-10">
+        @Model.CompanyName
+    </div>
+
+</div>
+
+<div class="col-md-10">
+    @Html.HiddenFor(m => m.IsAdded, new { @class = "form-control" })
+</div>
+
+
+
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script type="text/javascript">
+    $(function () {
+        debugger;
+
+        //$('#Email').val('');
+        //$('#StaffNumber').val('');
+        //$('#Name').val('');
+        //$('#CompanyName').val('');
+
+        var isAdded = $('#IsAdded').val();
+        if(isAdded==1)
+        {
+            //success
+            alert("正常に登録されました ");
+        }
+        //else if (isAdded==2)
+        //{
+        //    //failed
+        //    alert("登録に失敗しました ");
+        //}
+        //else if (isAdded == 3) {
+        //    //failed
+        //    alert("スタッフ番号はすでに存在します ");
+        //}
+
+
+         });
+    </script>
+}
+
+

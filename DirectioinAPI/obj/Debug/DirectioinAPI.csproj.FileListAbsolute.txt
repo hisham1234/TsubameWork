@@ -1,0 +1,11 @@
+D:\tfs\Yosoku\未来シェア\未来シェア\DirectioinAPI\bin\Debug\DirectioinAPI.exe.config
+D:\tfs\Yosoku\未来シェア\未来シェア\DirectioinAPI\bin\Debug\DirectioinAPI.exe
+D:\tfs\Yosoku\未来シェア\未来シェア\DirectioinAPI\bin\Debug\DirectioinAPI.pdb
+D:\tfs\Yosoku\未来シェア\未来シェア\DirectioinAPI\obj\Debug\DirectioinAPI.csprojResolveAssemblyReference.cache
+D:\tfs\Yosoku\未来シェア\未来シェア\DirectioinAPI\obj\Debug\DirectioinAPI.Form1.resources
+D:\tfs\Yosoku\未来シェア\未来シェア\DirectioinAPI\obj\Debug\DirectioinAPI.Properties.Resources.resources
+D:\tfs\Yosoku\未来シェア\未来シェア\DirectioinAPI\obj\Debug\DirectioinAPI.csproj.GenerateResource.Cache
+D:\tfs\Yosoku\未来シェア\未来シェア\DirectioinAPI\obj\Debug\DirectioinAPI.exe
+D:\tfs\Yosoku\未来シェア\未来シェア\DirectioinAPI\obj\Debug\DirectioinAPI.pdb
+D:\tfs\Yosoku\未来シェア\未来シェア\DirectioinAPI\bin\Debug\Newtonsoft.Json.dll
+D:\tfs\Yosoku\未来シェア\未来シェア\DirectioinAPI\bin\Debug\Newtonsoft.Json.xml

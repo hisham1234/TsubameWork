@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+    <link rel="dns-prefetch" href="//googleads.g.doubleclick.net">
+    <link rel="dns-prefetch" href="//googleads4.g.doubleclick.net">
+    <link rel="dns-prefetch" href="//tpc.googlesyndication.com">
+    <link rel="dns-prefetch" href="//www.gstatic.com">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="Japanese" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>ストップウォッチWeb</title>
+    <meta name="title" content="ストップウォッチWeb" />
+    <meta name="keywords" content="ストップウォッチ,Web" />
+    <meta name="description" content="ストップウォッチWebはストップウォッチを表示するサイトです。ストップウォッチはブラウザを閉じても動作します。" />
+    <meta name="theme-color" content="#e9e9e9">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png" />
+    <link rel="START" href="https://stopwatch.onl.jp/" />
+    <link rel="canonical" href="https://stopwatch.onl.jp/" />
+    <link rel="alternate" hreflang="ja" href="https://stopwatch.onl.jp/" />
+    <link rel="alternate" hreflang="en" href="https://stopwatch.onl.tw/" />
+    <link type="text/css" rel="stylesheet" href="/lib/jquery.mobile-1.4.5.min.css" />
+    <link type="text/css" rel="stylesheet" href="/lib/app.css?v=0.25" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ストップウォッチWeb" />
+    <meta property="og:description" content="ストップウォッチWebはストップウォッチを表示するサイトです。ストップウォッチはブラウザを閉じても動作します。" />
+    <meta property="og:url" content="https://stopwatch.onl.jp/" />
+    <meta property="og:site_name" content="ストップウォッチWeb" />
+    <meta property="og:image" content="https://stopwatch.onl.jp/ogp.jpg" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="msvalidate.01" content="A415C6F6F0DA8DE19B77D613F05973EB" />
+    <script type="application/ld+json">
+        {"@context"			: "http://schema.org",
+        "@type"			: "Itemlist","itemListElement":[
+        {	"@type"			: "SiteNavigationElement",
+        "url"			: "https://watch.onl.jp/",
+        "name"			: "アナログ時計Web",
+        "description"	: "アナログ時計Webはアナログ時計を表示するサイトです。",
+        "position"		: "1" },
+        {	"@type"			: "SiteNavigationElement",
+        "url"			: "https://digital.onl.jp/",
+        "name"			: "デジタル時計Web",
+        "description"	: "デジタル時計Webはデジタル時計を表示するサイトです。",
+        "position"		: "2" },
+        {	"@type"			: "SiteNavigationElement",
+        "url"			: "https://stopdigital.onl.jp/",
+        "name"			: "ストップウォッチWeb",
+        "description"	: "ストップウォッチWebはストップウォッチを表示するサイトです。ストップウォッチはブラウザを閉じても動作します。",
+        "position"		: "3" },
+        {	"@type"			: "SiteNavigationElement",
+        "url"			: "https://timer.onl.jp/",
+        "name"			: "タイマーWeb",
+        "description"	: "タイマーWebはタイマーを表示するサイトです。タイマーはブラウザを閉じても動作します。",
+        "position"		: "4" }
+        ]}
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-82400861-9"></script>
+    <script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-82400861-9');
+    </script>
+</head>
+<body role="document" itemscope itemtype="http://schema.org/WebPage">
+    <div id="page" data-role="page">
+        <div id="header" data-role="header" data-position="fixed" data-fullscreen="true" data-id="common_header" itemscope itemtype="http://schema.org/WPHeader">
+            <h1>ストップウォッチWeb</h1>
+            <a href="#rightpanel" class="menuicon ui-btn-right ui-link ui-btn ui-icon-bars ui-btn-icon-notext ui-shadow" title="オンラインツール">オンラインツール</a>
+        </div>
+        <div id="main" role="main" class="ui-content">
+            <div class="content">
+                <p id="timertext"></p>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a"><a href="#" class="ui-btn ui-icon-clock   ui-btn-icon-top" id="swStart">スタート</a></div>
+                    <div class="ui-block-b"><a href="#" class="ui-btn ui-icon-refresh ui-btn-icon-top" id="swClear">クリア</a></div>
+                </div>
+            </div>
+        </div>
+        <div id="footer" data-role="footer" data-position="fixed" data-fullscreen="true" data-id="common_footer" itemscope itemtype="http://schema.org/WPFooter">
+            <div class="ads">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <ins class="adsbygoogle"
+                     style="display:inline-block;width:320px;height:50px"
+                     data-ad-client="ca-pub-2752181111354421"
+                     data-ad-slot="5618604520"></ins>
+                <script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+        </div>
+        <div data-role="panel" id="rightpanel" data-position="right" data-display="overlay" data-theme="a">
+            <h3 class="ui-sitetitle">ストップウォッチ</h3>
+            <a href="#" data-role="button" data-icon="delete" data-rel="close" data-inline="true">閉じる</a>
+            <a href="#" class="s_full" data-role="button" data-icon="action" data-inline="true">全画面</a>
+            <a href="https://watch.onl.jp/" data-role="button" data-icon="grid" data-inline="false">アナログ時計</a>
+            <a href="https://digital.onl.jp/" data-role="button" data-icon="grid" data-inline="false">デジタル時計</a>
+            <a href="https://timer.onl.jp/" data-role="button" data-icon="grid" data-inline="false">タイマーWeb</a>
+            <hr class="ui-separator">
+            <a href="https://onl.jp/" data-mini="true" data-theme="a" data-role="button" data-icon="grid" data-inline="false" class="ui-link ui-btn ui-btn-a ui-icon-grid ui-btn-icon-left ui-shadow ui-corner-all ui-mini" role="button">オンラインツール</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="/lib/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="/lib/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="/lib/app.js?v=0.25"></script>
+    <video style="position:fixed;top:0;left:0;height:0;" muted autoplay loop><source src="dummy.mp4"></video>
+</body>
+</html>

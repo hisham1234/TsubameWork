@@ -1,0 +1,3 @@
+2020/02/25 16:48:37.076 start
+2020/02/25 16:51:55.520 処理開始
+2020/02/25 16:57:15.183 MiraiShareServer_deleteAllDemands():失敗オブジェクト参照がオブジェクト インスタンスに設定されていません。   場所 未来シェア.MiraiShareDataOP.MiraiShareServer_deleteAllDemands(String& msg) 場所 D:\tfs\Yosoku\未来シェア\未来シェア\未来シェア\MiraiShareDataOP.cs:行 480

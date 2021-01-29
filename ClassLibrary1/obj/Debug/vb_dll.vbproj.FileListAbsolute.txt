@@ -1,0 +1,9 @@
+D:\tfs\Yosoku\未来シェア\未来シェア\ClassLibrary1\bin\Debug\vb_dll.dll
+D:\tfs\Yosoku\未来シェア\未来シェア\ClassLibrary1\bin\Debug\vb_dll.pdb
+D:\tfs\Yosoku\未来シェア\未来シェア\ClassLibrary1\bin\Debug\vb_dll.xml
+D:\tfs\Yosoku\未来シェア\未来シェア\ClassLibrary1\obj\Debug\vb_dll.Resources.resources
+D:\tfs\Yosoku\未来シェア\未来シェア\ClassLibrary1\obj\Debug\vb_dll.vbproj.GenerateResource.Cache
+D:\tfs\Yosoku\未来シェア\未来シェア\ClassLibrary1\obj\Debug\vb_dll.dll
+D:\tfs\Yosoku\未来シェア\未来シェア\ClassLibrary1\obj\Debug\vb_dll.xml
+D:\tfs\Yosoku\未来シェア\未来シェア\ClassLibrary1\obj\Debug\vb_dll.pdb
+D:\tfs\Yosoku\未来シェア\未来シェア\ClassLibrary1\obj\Debug\vb_dll.vbprojResolveAssemblyReference.cache

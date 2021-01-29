@@ -1,0 +1,11 @@
+﻿/****** SSMS の SelectTopNRows コマンドのスクリプト  *****/
+SELECT                      v.ID, v.処理日時, v.savId, v.demandId, v.action, v.estimatedTime, v.position_Lat, v.position_Lng, 
+                                      CASE WHEN [action] = 'PICK_UP' THEN '乗車' WHEN [action] = 'DROP_OFF' THEN '降車' END AS 'イベント', 
+									  v.time as イベント日時,
+                                      CASE WHEN [action] = 'PICK_UP' THEN r.予約住所 WHEN [action] = 'DROP_OFF' THEN r.案内住所 END AS '住所',
+									  CASE WHEN [action] = 'PICK_UP' THEN r.予約名前 WHEN [action] = 'DROP_OFF' THEN r.案内名前 END AS '名称',
+									  r.状態, r.予約住所, r.予約名前, r.案内住所, 
+                                      r.案内名前, r.SendPickUpPosition_Lat, r.SendPickUpPosition_Lng, r.SendDropOffPosition_Lat, r.SendDropOffPosition_Lng
+FROM                         Mirai_Result_viaPoints AS v INNER JOIN
+                                      Mirai_DemandRequest AS r ON v.demandId = r.RecvDemandId
+WHERE                       (v.savId = 2) AND (v.処理日時 = '2019-08-03 05:24:00.000')
